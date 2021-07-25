@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    background-color: #ebebeb;
+}
+
+.logoMercado{
+    size: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.texto{
+    font-size: 12px;
+}
+
+.menuContainer{
+    background-color: #03264C;
+    color: white; 
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+}
+
+main{
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.fas.fa-hand-holding-usd{
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+.far.fa-id-card{
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+.fas.fa-sign-in-alt{
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+.fas.fa-shopping-basket{
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.products{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+article{
+    margin: 10px;
+    width: 20%;
+    background-color: white;
+}
+
+@media (min-width: 768px){
+    article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+.electronicos{
+    margin: auto;
+    padding: 1px;
+}
+
+.contenido{
+    border-top: 1px solid #ebebeb;
+    margin: 15px;
+    position: relative;
+}
+
+
+.fas.fa-shipping-fast{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform .5s;
+}
+
+.fas.fa-shipping-fast:hover{
+    transform: rotate (-90deg);
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.ofertas{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+h2{
+    font-size: 16px;
+}
+
+@media (max-width: 361px){
+    .descripciones{
+        display: none;
+    }
+}
+
+.offerts{
+display: flex; 
+flex-wrap: wrap;
+}
+
+.pie{
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.icon{
+    size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
