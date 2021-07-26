@@ -17,7 +17,7 @@ app.get('/register', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3030, function () {
-     console.log('Servidor Corriendo en puerto 3030');
+     console.log('Servidor Corriendo');
 })
 
 
