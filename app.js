@@ -16,6 +16,9 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/register.html'))
 })
 
-app.listen(3030, () => console.log('Servidor Corriendo'));
+app.listen(process.env.PORT || 3030, function () {
+     console.log('Servidor Corriendo en puerto 3030');
+})
+
 
 app.use(express.static('public'));
